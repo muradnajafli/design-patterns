@@ -1,7 +1,6 @@
 package com.epam.rd.autocode.observer.git;
 
-import java.util.ArrayList;
-import java.util.List;
+
 
 public class GitRepoObservers {
     public static Repository newRepository() {

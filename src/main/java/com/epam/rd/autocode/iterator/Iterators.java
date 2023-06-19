@@ -47,7 +47,7 @@ class Iterators {
         }
         Iterator<Integer> result = Arrays.stream(fiveTimesArray).iterator();
         return result;
-        }
+    }
 
     public static Iterable<String> table(String[] columns, int[] rows){
         List<String> result = new ArrayList<>();
