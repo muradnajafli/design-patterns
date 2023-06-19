@@ -5,13 +5,17 @@ import java.util.Objects;
 import java.util.StringJoiner;
 
 public class Commit{
+    private String branch;
     private String author;
     private String[] changes;
 
-    public Commit(final String author, final String[] changes) {
+    public Commit(final String branch, final String author, final String[] changes) {
+        this.branch = branch;
         this.author = author;
         this.changes = changes;
     }
+
+    String branch() {return branch; }
 
     String author(){
         return author;
